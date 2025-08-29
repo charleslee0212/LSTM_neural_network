@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     data = loadFile(filename="METR-LA.h5")
 
-    time_step = 48
+    time_step = 24
     input_size = data.shape[1]
 
     train, _, _, _ = split_data(data=data)
